@@ -1,0 +1,12 @@
+.bishbosh-grid{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-template-rows:20% 20% 20% 20% 20% ;
+    background-color: #fff;
+    color: #444;
+    grid-gap: 10px
+}
+
+.bishbosh-grid > *{
+    background-color: grey;
+}
